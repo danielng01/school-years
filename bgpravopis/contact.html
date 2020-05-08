@@ -1,0 +1,112 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=windows-1251"/>
+	<meta http-equiv="Content-Language" content="bg"/>
+	<link rel="shortcut icon" href="./favicon.ico"/>
+	<link rel="stylesheet" type="text/css" href="menu.css"/>
+	<link rel="stylesheet" type="text/css" href="development-bundle/themes/base/jquery.ui.all.css" />
+	<script src="js/jquery-1.6.2.min.js"></script>
+	<script src="js/jquery-ui-1.8.16.custom.min.js"></script>
+	<script type="text/javascript" src="menu.js"></script>
+
+</head>
+<body>
+	<div id="navigation">
+		<a href="menu.html" class="menu" title="Начална Страница" >
+			<span>Начало</span>
+			<span></span>
+		</a>
+		<a href="#" id="testMenu" class="menu" onclick="return toggleMenu('test');" onmousemove="keepMenuOnMouseMove();" onmouseout="hideMenuOnMouseOut();">
+			<span>Тестове</span>
+			<span class="downChar">&#9660;</span>
+		</a>
+		<a href="contact.html" id="contactMenu" class="menu" onclick="return toggleMenu();" onmousemove="keepMenuOnMouseMove();" onmouseout="hideMenuOnMouseOut();">
+			<span>Контакти</span>
+			<span class="downChar">&#9660;</span>
+		</a>
+	</div>
+	<div id="test" class="submenu">
+		<div class="out">
+			<div class="in" onmousemove="keepMenuOnMouseMove();" onmouseout="hideMenuOnMouseOut();">
+				<table>
+				<tr>
+					<td><a href="/test/spelling" title="Проверка на знанията при правопис на думи">Правопис на думи</a></td>
+				</tr>
+				<tr>
+					<td><a href="/games/hangman" title="Добре известната класическа игра бесеница">Игра на бесеница</a></td>
+				</tr>
+				</table>
+			</div>
+			<div id="testVShadow" class="vShadow"></div>
+			<div id="testHShadow" class="hShadow"></div>
+		</div>
+	</div>
+	<div class="social-media">
+		<ul>
+			<li class="hover-one"><a href="http://www.facebook.com/" target="_blank" rel="nofollow"><img src="images/facebook.png" alt="Facebook"/> </a></li>
+			<li class="hover-two"><a href="http://www.linkedin.com/" target="_blank" rel="nofollow"><img src="images/linked-in.png" alt="Linkedin"/> </a></li>
+			<li class="hover-three"><a  href="https://plus.google.com/" target="_blank" rel="nofollow"><img src="images/google.png" alt="Google Plus" /> </a></li>
+			<li  class="hover-four"><a href="http://bg.netlog.com/" target="_blank" rel="nofollow"><img src="images/netlog.png" alt="" /> </a></li>
+		</ul>    
+	</div>
+<!-- Contact form-->
+	
+<!-- save message -->
+	<form name="contact" action="/action/contact" method="POST" onsubmit="return validateContactForm();">
+		<table id="contactFormTable" summary="Used for layout reasons">
+			<tr>
+			<td colspan="2"><h1 class="title">Въпроси, запитвания и коментари</h1></td>
+			</tr>
+			<tr>
+			<td>Име:</td>
+			<td>&nbsp;</td>
+			</tr>
+			<tr>
+			<td><input type="text" name="name" id="name" size="25" maxlength="100" onkeypress="return processKey(event, this);"/></td>
+			<td>&nbsp;</td>
+			</tr>
+			<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			</tr>
+			<tr>
+			<td>Е-поща:</td>
+			<td>&nbsp;</td>
+			</tr>
+			<tr>
+			<td><input type="text" name="email" id="email" size="25" maxlength="100" onkeypress="return processKey(event, this);"/></td>
+			<td>&nbsp;</td>
+			</tr>
+			<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			</tr>
+			<tr>
+			<td>Запитване:</td>
+			</tr>
+			<tr>
+			<td colspan="2"><textarea name="comment" id="comment" cols="50" rows="10" onkeypress="return processKey(event, this);"></textarea></td>
+			</tr>
+			<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			</tr>
+			<tr>
+			<td>&nbsp;</td>
+			<td class="right"><button type="submit" name="submit" value="submit">Изпращане</button></td>
+			</tr>
+			<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			</tr>
+			<tr>
+			<td class="description" colspan="2">
+			Полето "Запитване" е задължително. Ако искате да получите отговор на запитването,
+			трябва да въведете и адрес за е-поща. Името и адреса за е-поща няма да бъдат
+			използвани за никакви други цели освен за отговор на въпроса Ви.
+			</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

@@ -1,0 +1,133 @@
+/*
+* Styles about test translation form visible only on first page
+*/
+TABLE#testFormTable {
+width: 10%;
+margin: 40px auto 20px auto;
+border-collapse: collapse;
+}
+
+TABLE#testFormTable TD {
+padding: 7px 4px;
+white-space: nowrap;
+vertical-align: top;
+}
+
+TABLE#testFormTable TD.right {
+text-align: right;
+}
+
+DIV.emptySpace {
+margin: 20px auto 10px auto;
+}
+
+DIV.hint {
+margin: 35px auto 25px auto;
+text-align: center;
+font-weight: bold;
+}
+
+
+/*
+* Styles about test statistic visible only on last page
+*/
+DIV#testStatistic {
+margin: 50px auto 20px auto;
+}
+
+DIV#testStatistic H3 {
+text-align: center;
+font-size: 120%;
+font-weight: normal;
+}
+
+DIV#testStatistic TABLE {
+width: 10%;
+margin: 5px auto 5px auto;
+border-collapse: collapse;
+}
+
+DIV#testStatistic TABLE TD {
+padding: 2px 5px;
+white-space: nowrap;
+}
+
+DIV#testStatistic TABLE TD.number {
+text-align: right;
+}
+
+DIV#testStatistic TABLE TD SPAN.hidden {
+visibility: hidden;
+}
+
+
+/*
+* Styles about input form
+*/
+TABLE#searchFormTable TD#randomWord {
+white-space: nowrap;
+vertical-align: middle;
+font-size: 120%;
+color: navy;
+}
+
+TABLE#searchFormTable TD#shortStatistic {
+white-space: nowrap;
+font-size: 90%;
+color: gray;
+padding-top: 10px;
+}
+
+TABLE#searchFormTable TD.misspelledWords {
+white-space: nowrap;
+font-size: 150%;
+color: navy;
+line-height: 150%;
+padding: 5px 50px 5px 5px;
+vertical-align: middle;
+}
+
+TABLE#searchFormTable TD.misspelledWords SPAN {
+cursor: pointer;
+}
+
+TABLE#searchFormTable TD.checkImage {
+white-space: nowrap;
+padding: 5px 10px 5px 5px;
+vertical-align: middle;
+visibility: hidden;
+}
+
+
+/*
+* Styles about test answers
+*/
+DIV#testResult {
+width: 60%;
+margin: 50px auto 50px auto;
+font-family: arial;
+font-size: 11pt;
+}
+
+DIV#testResult H3 {
+text-align: center;
+font-size: 120%;
+font-weight: normal;
+}
+
+DIV#testResult H3.correctAnswer {
+color: green;
+}
+
+DIV#testResult H3.wrongAnswer {
+color: red;
+}
+
+DIV#testResult SPAN.label {
+color: gray;
+font-weight: bold;
+}
+
+DIV#testResult SPAN.answer {
+font-weight: bold;
+}

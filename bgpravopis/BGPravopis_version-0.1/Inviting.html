@@ -1,0 +1,36 @@
+<html>
+<body>	
+	<?php
+		require("ConnectToDatabase.php");
+		
+		$end = 874653;
+		$start = 1;
+		$i = 0;
+		$boolean = 0;
+
+		$chosen = rand($start, $end); 	
+		$result = mysql_query("SELECT word FROM words WHERE id = '$chosen'");
+		while($record = mysql_fetch_assoc($result)){	
+			echo $record['word']."<br />";
+		}
+	?>
+	<form method="post">
+		<table>
+			<tbody>					
+				<tr>
+					<td>Wrong Word</td>
+					<td><input type="text" name="wrongWord" id="wrongWord" /></td>
+				</tr>
+			</tbody>
+		</table>	
+		<div><input value="Invite" type="submit" /></div>		
+	</form>
+	<?php
+		if (isset($_POST['wrongWord'])){
+			$answer  = htmlspecialchars($_POST['wrongWord']);
+			mysql_query("UPDATE `a1524430`.`wrongWords` SET `wrongWord` = '$answer' WHERE `wrongWords`.`id` = '$chosen';");
+			unset($_POST['wrongWord']);
+		}
+	?>
+</body>
+</html>

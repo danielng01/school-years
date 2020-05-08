@@ -1,0 +1,68 @@
+<div class="navigation">
+	<a href="index.php" class="menu" title="Начална Страница" >
+		<span>Начало</span>
+		<span></span>
+	</a>
+	
+	<a href="Inviting.php" class="menu" title="Добавете дума" >
+		<span>Добавете дума</span>
+		<span></span>
+	</a>
+	
+	<a href="#" id="testMenu" class="menu" onclick="return toggleMenu('test');" onmousemove="keepMenuOnMouseMove();" onmouseout="hideMenuOnMouseOut();">
+		<span>Тестове</span>
+		<span class="downChar">&#9660;</span>
+	</a>
+	
+	<div id="test" class="submenu">
+	<div class="out">
+		<div class="in" onmousemove="keepMenuOnMouseMove();" onmouseout="hideMenuOnMouseOut();">
+			<table>
+			<tr>
+				<td><a href="spelling.php" title="Проверка на знанията при правопис на думи">Правопис на думи</a></td>
+			</tr>
+			<tr>
+				<td><a href="#" title="Добре известната класическа игра бесеница">Игра на бесеница</a></td>
+			</tr>
+			</table>
+		</div>
+		<div id="testVShadow" class="vShadow"></div>
+		<div id="testHShadow" class="hShadow"></div>
+	</div>
+	</div>
+	
+	<a href="#" id="contactMenu" class="menu" onclick="return toggleMenu('contact');" onmousemove="keepMenuOnMouseMove();" onmouseout="hideMenuOnMouseOut();">
+		<span>Контакти</span>
+		<span class="downChar">&#9660;</span>
+	</a>
+	
+	<div id="contact" class="submenu">
+	<div class="out">
+		<div class="in" onmousemove="keepMenuOnMouseMove();" onmouseout="hideMenuOnMouseOut();">
+			<table>
+			<tr>
+				<td><a href="contact.php" title="Въпроси, запитвания, коментари">Връзка с нас</a></td>
+			</tr>
+			<tr>
+				<td><a href="#" title="За нас">За нас</a></td>
+			</tr>
+			</table>
+		</div>
+		<div id="contactVShadow" class="vShadow"></div>
+		<div id="contactHShadow" class="hShadow"></div>
+	</div>
+	</div>
+	
+	<!-- User login and register -->
+	<span id="users">
+		<a href="register.php" class="register menu" title="Регистрация" >
+			<span>Регистрация</span>
+			<span></span>
+		</a>
+		<a href="login.php" id="" class="login menu" title="Вход" >
+			<span>Вход</span>
+		</a>
+	</span>
+</div>
+
+

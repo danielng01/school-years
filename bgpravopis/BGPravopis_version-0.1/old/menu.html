@@ -1,0 +1,24 @@
+<html>
+<head>
+
+<link rel="shortcut icon" href="./favicon.ico"/>
+<link rel="stylesheet" type="text/css" href="menu.css"/>
+<script type="text/javascript" src="menu.js"></script>
+<link rel="stylesheet" type="text/css" href="development-bundle/themes/base/jquery.ui.all.css" />
+<script src="js/jquery-1.6.2.min.js"></script>
+<script src="js/jquery-ui-1.8.16.custom.min.js"></script>
+
+</head>
+<body>
+	<a href="menu 1" onClick="return clickreturnvalue()" onMouseover="dropdownmenu(this, event, menu1, '150px')" onMouseout="delayhidemenu()">Menu (variant) 1</a> | 
+	<a href="menu 2" onClick="return dropdownmenu(this, event, menu2, '200px')" onMouseout="delayhidemenu()">Manu (variant) 2</a>
+	<form method="post" action="">
+		<table id="searchFormTable" summary="Used for layout reasons" align="center">
+			<tr>
+				<td><input type="text" name="word" id="word" size="50" maxlength="100" onkeypress="return processKey(event, this);"/></td>
+				<td><button type="submit" id="submitButton">Search</button></td>
+			</tr>
+		</table>
+	</form>	
+</body>
+</html>
