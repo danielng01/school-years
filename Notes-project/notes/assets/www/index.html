@@ -1,0 +1,76 @@
+<!Doctype html>
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" href="css/index.css" />
+<link rel="stylesheet" href="css/jquery.mobile-1.3.0.min.css" />
+</head>
+<body>
+<div data-role="page" id="page" >
+	<div data-role="panel" id="mypanel" data-theme="a">
+		<!-- panel content goes here -->
+		<ul data-role="listview" class="nav-search" data-theme="a"
+			data-icon="false">
+			<li data-icon="delete"><a data-rel="close" href="index.html">NoteThis</a></li>
+			<li><a href="settings.html">Settings</a></li>
+			<li><a id="delete-all-notes" href="index.html" data-rel="close">Delete All Notes</a></li>
+		</ul>
+	</div>
+	<!-- /panel -->
+	<div data-role="header">
+
+
+		<a href="#mypanel" data-role="button" data-icon="bars"
+			>NoteThis</a>
+		<h1></h1>
+		<div class="ui-btn-right" data-role="controlgroup"
+			data-type="horizontal">
+			
+		   <a href="ChooseNoteType.html" data-role="button" data-icon="plus" data-rel="dialog">Add</a>
+		   		   
+		   
+		    <a href="#popupMenu" data-rel="popup"
+				data-role="button" data-inline="true" data-transition="none"
+				data-icon="gear" data-iconpos="notext"></a>
+			
+			<div data-role="popup" id="popupMenu">
+				<ul id="settings-menu" data-role="listview" data-inset="true"
+					style="min-width: 210px;" data-icon="false">
+					
+					<li data-icon="gear"><a href="settings.html">Settings</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div id="content" data-role="content">
+	
+		<ul id="notes" data-role="listview" data-filter="true"
+			data-filter-placeholder="Search Notes" data-inset="true" data-icon="false">
+		<!-- Dynamic content from database -->
+		</ul>
+		
+	</div>
+			
+	
+</div>
+	<div data-role="page" data-url="ChooseNoteType.html">
+    <div data-role="header">
+        <h1>Type</h1>
+    </div>
+    <div data-role="content">
+        <a href="addNote.html" data-role="button">Text</a> <a
+		href="addPhotoNote.html" data-role="button">Photo</a>
+    </div>
+	</div>
+	<!-- /content -->
+	<script src="js/jquery-1.9.1.min.js"></script>
+	<script src="js/jquery.mobile-1.3.0.min.js"></script>
+	<script src="js/index.js"></script>
+	<script src="js/energize-min.js"></script>
+	<script type="text/javascript" src="js/mustache.js"></script>
+	<script>
+
+</script>
+</body>
+</html>
