@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode title="InfoHub"  description="InfoHub" >
+    <siteMapNode url="~/" title="Home" />
+    <siteMapNode url="~/News.aspx" title="News" description="News">
+      <siteMapNode url="~/News/AddNews.aspx" title="Add News"></siteMapNode>
+      <siteMapNode url="~/News/TopNews.aspx" title="Top News"></siteMapNode>
+    </siteMapNode>
+    <siteMapNode url="~/Fun.aspx" title="Fun" description="Fun">
+      <siteMapNode url="~/Fun/AddFunContent.aspx" title="Add Fun Content"></siteMapNode>
+      <siteMapNode url="~/Fun/TopFunContent.aspx" title="Top Fun Content"></siteMapNode>
+    </siteMapNode>
+    <siteMapNode url="~/Questions.aspx" title="Questions" description="Questions">
+      <siteMapNode url="~/Questions/NewQuestion.aspx" title="New Question"></siteMapNode>
+      <siteMapNode url="~/Questions/TopQuestions.aspx" title="Top Questions"></siteMapNode>
+    </siteMapNode>
+    <siteMapNode url="~/Articles.aspx" title="Articles" description="Articles" >
+      <siteMapNode url="~/AddArticle.aspx" title="Add Article" description="Add Article"></siteMapNode>
+      <siteMapNode url="~/Articles/TopArticles.aspx" title="Top Articles"></siteMapNode>
+    </siteMapNode>
+    <siteMapNode url="~/Categories.aspx" title="Categories" description="Categories"></siteMapNode>
+  </siteMapNode>
+</siteMap>

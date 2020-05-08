@@ -1,0 +1,127 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteTemplate.master.cs" Inherits="it_project.SiteTemplate" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
+<head id="Head1" runat="server">
+    <link type="text/css" rel="stylesheet" href="~/CSS/site.css" />
+    <title>InfoHub</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+    <div id="fb-root"></div>
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                appId: '112249508938212', // App ID // Channel File
+                status: true, // check login status
+                cookie: true, // enable cookies to allow the server to access the session
+                xfbml: true  // parse XFBML
+            });
+        };
+        // Load the SDK Asynchronously
+        (function (d) {
+            var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+            if (d.getElementById(id)) { return; }
+            js = d.createElement('script'); js.id = id; js.async = true;
+            js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+            ref.parentNode.insertBefore(js, ref);
+        }(document));
+    </script>
+    <form id="form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server">
+        </asp:ScriptManager>
+        <div class="wrapper">
+            <header id="header">
+                <a href="Default.aspx" class="icon"></a>
+                <ul>
+                    <li><a href="Articles.aspx">Articles</a></li>
+                    <li><a href="News.aspx">News</a></li>
+                    <li><a href="Questions.aspx">Questions</a></li>
+                </ul>
+                <form autocomplete="on" class="searchBar">
+                    <input type="text" class="searchBar" tabindex="10000" placeholder="Search ...">
+                </form>
+                <asp:LoginView ID="LoginView2" runat="server">
+                    <AnonymousTemplate>
+                        <ul style="float: right;">
+                            <li><a href="Login.aspx">Login</a></li>
+                            <li><a href="Register.aspx">Register</a></li>
+                        </ul>
+                    </AnonymousTemplate>
+                    <LoggedInTemplate>
+                        <ul style="float: right;">
+                            <li class="li-name"><%=Context.User.Identity.Name%>,</li>
+                            <li>
+                                <asp:LinkButton ID="LoginLink" Text="sign out"
+                                    OnClick="LoginLink_OnClick" runat="server" /></li>
+                        </ul>
+                    </LoggedInTemplate>
+                </asp:LoginView>
+
+            </header>
+            <aside class="page-sidebar">
+                <ul>
+                    <li>
+                        <a><strong>Top Categories</strong></a>
+                        <ul class="sub-menu">
+                            <li><a href="#">Trending</a></li>
+                            <li><a href="#">Fresh</a></li>
+                            <li><a href="#">Recomended</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a><strong>Other Categories</strong></a>
+                        <ul class="sub-menu">
+                            <li><a href="#">Sports</a></li>
+                            <li><a href="#">Fashion</a></li>
+                            <li><a href="#">Technology</a></li>
+                            <li><a href="#">Science</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </aside>
+            <div>
+
+                <asp:ContentPlaceHolder ID="body" runat="server">
+                </asp:ContentPlaceHolder>
+
+                <br />
+                <footer id="footer">
+                    <div id="links">
+                        <p class="left">
+                            Copyright © 2012. All rights reserved! Dani & Viki
+                        </p>
+                        <ul class="piped right">
+                            <li><a href="#">Terms of Use</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Site map</a> </li>
+                            <li><a href="#">Information</a> </li>
+                            <li><a href="#">Contacts</a> </li>
+                        </ul>
+                    </div>
+                </footer>
+                <br />
+                <div id="likeUS">
+                    <asp:Image ID="Image2" runat="server" ImageUrl="~/Images/youtube.png" />
+                    <asp:Image ID="Image5" runat="server" ImageUrl="~/Images/google.png" />
+                    <asp:Image ID="Image3" runat="server" ImageUrl="~/Images/twitter.png" />
+                    <asp:Image ID="Image4" runat="server" ImageUrl="~/Images/designmoo.png" />
+                    <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/facebook.png" />
+                </div>
+            </div>
+
+        </div>
+    </form>
+</body>
+<!-- Place this tag after the last +1 button tag. -->
+<script type="text/javascript">
+    (function () {
+        var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+        po.src = 'https://apis.google.com/js/plusone.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+    })();
+</script>
+</html>
