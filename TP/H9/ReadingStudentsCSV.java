@@ -1,0 +1,13 @@
+class Student{
+	String Name;
+	Student(String name){
+		Name=name;
+	}
+}
+class ReadingStudentsCSV{
+	public static void main(String[] args){
+		System.out.println("reading students csv");
+		Student gosho = new Student("pesho");
+		System.out.println(gosho.Name);
+	}
+}

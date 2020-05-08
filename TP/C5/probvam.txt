@@ -1,0 +1,48 @@
+da imame h1/1-17
+h2/1-2
+h3/1..
+#TUES
+#klas
+#nomer
+#ime
+#opisanie kakvo pravi  946  hg log
+  947  hg commit -u student11b
+  948  git
+  949  su
+  950  history
+  951  su lubo
+  952  git clone 
+  953  git clone https://github.com/subscribe
+  954  git clone https://github.com/subscribe01
+  955  git clone https://github.com/subscribe01/TP.git
+  956  ls
+  957  cd TP
+  958  ls
+  959  git init
+  960  cd TP
+  961  touch probvam.txt
+  962  add . -v
+  963  git add . -v
+  964  git commit -m "probvm da kacha"
+  965  git push origin
+  966  git push origin master
+  967  git --global user.name "subscribe01"
+  968  git --global user.name "daniel georgiev"
+  969  git config --global user.name "daniel georgiev"
+  970  git push 
+  971  git config --global user.email "daniel.georgiev95@gmail.com"
+  972  git push 
+  973  git remote -v
+  974  git remote set-url origin ssh://git@github.com/derekerdmann/lunch_call.git
+  975  git remote set-url origin ssh://git@github.com/subscribe01/TP.git
+  976  git remote -v
+  977  git push
+  978  git push origin
+  979  git push
+  980  git config --global user.email "daniel.georgiev95@gmail.com"
+  981  git push
+  982  su lubo
+  983  git remote set-url origin https://subscribe01@github.com/subscribe01/TP.git
+  984  git push
+  985  history
+
