@@ -1,0 +1,14 @@
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="<%=request.getContextPath()%>/bootstrap/js/bootstrap.min.js"></script>
+<!-- GoStats JavaScript Based Code -->
+<script type="text/javascript" src="http://gostats.com/js/counter.js"></script>
+<script type="text/javascript">_gos='monster.gostats.com';_goa=471223;
+_got=1;_goi=65;_gol='website monitoring';_GoStatsRun();</script>
+<noscript><a target="_blank" title="website monitoring" 
+href="http://gostats.com"><img alt="website monitoring" 
+src="http://monster.gostats.com/bin/count/a_471223/t_1/i_65/counter.png" 
+style="border-width:0" /></a></noscript>
+<!-- End GoStats JavaScript Based Code -->
+</body>
+</html>

@@ -1,0 +1,36 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<jsp:include page="header.jsp" />
+<div style="clear:both;padding-top: 50px;margin-left:20px;">
+try {
+	String jspPath = session.getServletContext().getRealPath("/");
+	File fileDir = new File(jspPath + "/Analizi/" +proizvedenie+".txt");
+	
+	BufferedReader in = new BufferedReader(
+	   new InputStreamReader(
+	                 new FileInputStream(fileDir), "UTF8"));
+	
+	String str;
+	%><pre class = "tekst" style=""><%
+	while ((str = in.readLine()) != null) {
+	   // System.out.println(str);
+		 out.println(str);
+	}
+%></pre><%
+    in.close();
+} 
+catch (UnsupportedEncodingException e) 
+{
+	System.out.println(e.getMessage());
+} 
+catch (IOException e) 
+{
+	System.out.println(e.getMessage());
+}
+catch (Exception e)
+{
+	System.out.println(e.getMessage());
+}
+%>
+</div>
+<jsp:include page="footer.jsp" /> 

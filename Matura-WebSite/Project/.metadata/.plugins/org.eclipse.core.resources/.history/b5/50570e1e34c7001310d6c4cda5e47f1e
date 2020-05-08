@@ -1,0 +1,40 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<jsp:include page="header.jsp" />
+<%@ page import="java.net.URLDecoder"%>
+<%@page import="java.io.FileReader"%>
+<%@page import="java.io.BufferedReader"%>
+<div style="clear:both;padding-top: 50px;"></div>
+<% String[] parameters = URLDecoder.decode(request.getQueryString(), "UTF-8").split("&"); %>
+<% String[] proizvedenieArray = parameters[0].split("="); 
+String proizvedenie = proizvedenieArray[1];
+out.println(proizvedenie);
+
+try {
+	File fileDir = new File("c:\\temp\\test.txt");
+	
+	BufferedReader in = new BufferedReader(
+	   new InputStreamReader(
+	                 new FileInputStream(fileDir), "UTF8"));
+	
+	String str;
+	
+	while ((str = in.readLine()) != null) {
+	    System.out.println(str);
+	}
+
+    in.close();
+} 
+catch (UnsupportedEncodingException e) 
+{
+	System.out.println(e.getMessage());
+} 
+catch (IOException e) 
+{
+	System.out.println(e.getMessage());
+}
+catch (Exception e)
+{
+	System.out.println(e.getMessage());
+}
+%>

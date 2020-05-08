@@ -1,0 +1,13 @@
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="<%=request.getContextPath()%>/bootstrap/js/bootstrap.min.js"></script>
+<!-- NACHALO NA TYXO.BG BROYACH -->
+<script type="text/javascript">
+<!--
+d=document;d.write('<a href="http://www.tyxo.bg/?157538" title="Tyxo.bg counter"><img width="1" height="1" border="0" alt="Tyxo.bg counter" src="'+location.protocol+'//cnt.tyxo.bg/157538?rnd='+Math.round(Math.random()*2147483647));
+d.write('&sp='+screen.width+'x'+screen.height+'&r='+escape(d.referrer)+'"></a>');
+//-->
+</script><noscript><a href="http://www.tyxo.bg/?157538" title="Tyxo.bg counter"><img src="http://cnt.tyxo.bg/157538" width="1" height="1" border="0" alt="Tyxo.bg counter" /></a></noscript>
+<!-- KRAI NA TYXO.BG BROYACH -->
+</body>
+</html>

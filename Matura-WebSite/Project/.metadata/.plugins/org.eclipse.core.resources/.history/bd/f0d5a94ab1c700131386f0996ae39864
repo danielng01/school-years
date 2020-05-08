@@ -1,0 +1,187 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<jsp:include page="header.jsp" />
+<body lang="BG" class="Normal" bgcolor="#FFFFFF" style="margin-top:50px;">
+<h1>Учебно-изпитна програма </h1>
+<h1>за зрелостен изпит по български език и литература</h1>
+<p>&nbsp;</p>
+<h4>I. Вид и времетраене на изпита</h4>
+<p>Изпитът е писмен, анонимен и е с продължителност 3 (три) астрономически часа.</p>
+<p>&nbsp;</p>
+<h4>II. Формат на изпита</h4>
+<p>Равнището на компетентностите на зрелостниците се проверява чрез:</p>
+<p>1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Въпроси със структуриран отговор.</p>
+<p>2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Задачи за създаване на текст.</p>
+<p>Държавният зрелостен изпит включва <b>три</b> компонента:</p>
+<p>1.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Решаване на 46 тестови задачи от затворен тип с четири възможни отговора, от които само един е верен.</p>
+<p>Езиковите компетентности се проверяват с 26 задачи;</p>
+<p>Литературните компетентности се проверяват с 20 задачи.</p>
+<p>2.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Създаване на текст по зададени параметри - CV (curriculum vitae), заявление (молба), конспект, резюме.</p>
+<p>3.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Създаване на текст, в който се интерпретира фрагмент от художествена творба според посоченото учебно съдържание.</p>
+<p>&nbsp;</p>
+<h4>III. Учебно съдържание</h4>
+<p><b>1. Български език </b></p>
+<ul>
+ <li>
+ <p>Текстът и социокултурният контекст;</p></li>
+ <li>
+ <p>Текстът в публичното общуване. Сфери на научната, медийната, гражданската, институционалната и художествената комуникация;</p></li>
+ <li>
+ <p>Функции на езиковите средства за изграждане на текста;</p></li>
+ <li>
+ <p>Отношения между езиковите единици от различните езикови равнища (фонетично, граматично, лексикално) - системни езикови правила;</p></li>
+ <li>
+ <p>Правописни и пунктуационни норми- конвенционални езикови правила;</p></li>
+ <li>
+ <p>Задължителност и избор на езикови средства в текста съобразно стиловите норми в различните сфери на общуване;</p></li>
+ <li>
+ <p>Задължителност и избор на структура и на композиция на текста с оглед сферата на общуване;</p></li>
+ <li>
+ <p>Извличане на информация от текста. Тематично и смислово членене на текста (конспектиране и резюмиране);</p></li>
+ <li>
+ <p>Създаване на интерпретативно съчинение;</p></li>
+ <li>
+ <p>Текстове документи, необходими за социалната реализация на зрелостниците при продължаване на образованието или при постъпване на работа - CV (curriculum vitae); заявление (молба).</p></li>
+</ul>
+<p><b>2. Литература</b></p>
+<p>&nbsp;</p>
+<p><i>2.1. Автори и произведения:</i></p>
+<p><a href="http://www.slovo.bg/botev/"><b>Христо Ботев</b> </a></p>
+<p><b><i>поезия</i></b>:
+<a href="http://www.slovo.bg/showwork.php3?AuID=1&amp;WorkID=3&amp;Level=1">„Майце си“</a>,
+<a href="http://www.slovo.bg/showwork.php3?AuID=1&amp;WorkID=5&amp;Level=1">„Елегия“</a>,
+<a href="http://www.slovo.bg/showwork.php3?AuID=1&amp;WorkID=7&amp;Level=1">„До моето първо либе“</a>,
+<a href="http://www.slovo.bg/showwork.php3?AuID=1&amp;WorkID=9&amp;Level=1">„На прощаване“</a>,
+<a href="http://www.slovo.bg/showwork.php3?AuID=1&amp;WorkID=3158&amp;Level=1">„Хаджи Димитър“</a>,
+<a href="http://www.slovo.bg/showwork.php3?AuID=1&amp;WorkID=3162&amp;Level=1">„Моята молитва“</a>,
+<a href="http://www.slovo.bg/showwork.php3?AuID=1&amp;WorkID=3164&amp;Level=1">„Обесването на Васил Левски“</a>.</p>
+<p><b><a href="http://www.slovo.bg/vazov/">Иван Вазов</a></b></p>
+<p><b><i>поезия</i></b>:<a href="http://www.slovo.bg/showwork.php3?AuID=14&amp;WorkID=970&amp;Level=1">„Българският език“</a>; <a href="http://www.slovo.bg/vazov/epopeya/">„Епопея на забравените“</a> -
+<a href="http://www.slovo.bg/showwork.php3?AuID=14&amp;WorkID=909&amp;Level=2">„Левски“</a>,
+<a href="http://www.slovo.bg/showwork.php3?AuID=14&amp;WorkID=914&amp;Level=2">„Паисий“</a>,
+<a href="http://www.slovo.bg/showwork.php3?AuID=14&amp;WorkID=911&amp;Level=2">„Кочо“</a>,
+<a href="http://www.slovo.bg/showwork.php3?AuID=14&amp;WorkID=920&amp;Level=2">„Опълченците на Шипка“</a>; <b><i>разказът</i></b>
+<a href="http://www.slovo.bg/showwork.php3?AuID=14&amp;WorkID=5154&amp;Level=2">„Дядо Йоцо гледа“</a>; <b><i>повестта</i></b> <a href="http://www.slovo.bg/vazov/chichovci/">„Чичовци“</a>; <b><i>романът</i></b>
+<a href="http://www.slovo.bg/vazov/podigoto/">„Под игото“</a>.</p>
+<p><a href="http://www.slovo.bg/aleko/"><b>Алеко Константинов</b> </a></p>
+<p><b><i>фейлетонът</i></b> <a href="http://www.slovo.bg/showwork.php3?AuID=169&amp;WorkID=4695&amp;Level=1">„Разни хора, разни идеали“</a>; <b><i>книгата</i></b>
+<a href="http://www.slovo.bg/aleko/bayganyo/">„Бай Ганьо“</a>.</p>
+<p><b><a href="http://www.slovo.bg/slaveykov/">Пенчо Славейков</a></b> </p>
+<p><b><i>поезия</i></b>:
+<a href="http://www.slovo.bg/showwork.php3?AuID=105&amp;WorkID=4744&amp;Level=2">„Cis moll“</a>,
+<a href="http://www.slovo.bg/showwork.php3?AuID=105&amp;WorkID=2470&amp;Level=2">„Ни лъх не дъхва над полени“</a>,
+<a href="http://www.slovo.bg/showwork.php3?AuID=105&amp;WorkID=2485&amp;Level=2">„Спи езерото; белостволи буки“</a>,
+<a href="http://www.slovo.bg/showwork.php3?AuID=105&amp;WorkID=2495&amp;Level=2">„Самотен гроб в самотен кът“</a>; <b><i>поемата </i></b>
+<a href="http://www.slovo.bg/showwork.php3?AuID=105&amp;WorkID=4748&amp;Level=2">„Ралица“</a>.</p>
+<p><a href="http://www.slovo.bg/yavorov/"><b>Пейо Яворов</b> </a></p>
+<p><b><i>поезия</i></b>:
+<a href="http://www.slovo.bg/showwork.php3?AuID=130&amp;WorkID=3320&amp;Level=3">„Градушка“</a>,
+<a href="http://www.slovo.bg/showwork.php3?AuID=130&amp;WorkID=3325&amp;Level=3">„Заточеници“</a>,
+<a href="http://www.slovo.bg/showwork.php3?AuID=130&amp;WorkID=3382&amp;Level=3">„Ще бъдеш в бяло“</a>,
+<a href="http://www.slovo.bg/showwork.php3?AuID=130&amp;WorkID=3335&amp;Level=3">„Две хубави очи“</a>,
+<a href="http://www.slovo.bg/showwork.php3?AuID=130&amp;WorkID=3333&amp;Level=3">„Сенки“</a>, <a href="http://www.slovo.bg/showwork.php3?AuID=130&amp;WorkID=3381&amp;Level=3">„Две души“</a>. </p>
+<p><b><a href="http://www.slovo.bg/elinpelin/" target="_blank">Елин Пелин</a></b> </p>
+<p><b><i>разкази</i></b>:
+<a href="http://balgarin.bravehost.com/elinpelin/vetrenata.htm" target="_blank">„Ветрената мелница“</a>,
+<a href="http://balgarin.bravehost.com/elinpelin/kosachi.htm" target="_blank">„Косачи“</a>,
+<a href="http://balgarin.bravehost.com/elinpelin/vraya.htm" target="_blank">„На оня свят“</a>,
+<a href="http://balgarin.bravehost.com/elinpelin/loza/nikodim.htm" target="_blank">„Чорба от греховете на отец Никодим“</a>,&nbsp;
+<a href="http://balgarin.bravehost.com/elinpelin/loza/zanemeli.htm" target="_blank">„Занемелите камбани“</a>; <b><i>повестта</i></b>
+<a href="http://balgarin.bravehost.com/elinpelin/geracite/">„Гераците“</a>.</p>
+<p><a href="http://www.slovo.bg/debelyanov/"><b>Димчо Дебелянов</b> </a></p>
+<p><b><i>поезия</i></b>: <a href="http://www.slovo.bg/showwork.php3?AuID=180&amp;WorkID=10169&amp;Level=2">„Черна песен“</a>, <a href="http://www.slovo.bg/showwork.php3?AuID=180&amp;WorkID=10367&amp;Level=2">„Пловдив“</a>, <a href="http://www.slovo.bg/showwork.php3?AuID=180&amp;WorkID=10257&amp;Level=2">„Да се завърнеш...“</a>, <a href="http://www.slovo.bg/showwork.php3?AuID=180&amp;WorkID=10364&amp;Level=2">„Помниш ли, помниш ли...“</a>, <a href="http://www.slovo.bg/showwork.php3?AuID=180&amp;WorkID=10177&amp;Level=2">„Спи градът“</a>, <a href="http://www.slovo.bg/showwork.php3?AuID=180&amp;WorkID=10376&amp;Level=2">„Сиротна песен“</a>.</p>
+<p><a href="http://www.slovo.bg/smirnenski/"><b>Христо Смирненски</b> </a></p>
+<p><b><i>поезия</i></b>:
+<a href="http://www.slovo.bg/showwork.php3?AuID=50&amp;WorkID=674&amp;Level=2">„Ний“</a>, <a href="http://www.slovo.bg/showwork.php3?AuID=50&amp;WorkID=3102&amp;Level=2">„Юноша“</a>,
+<a href="http://www.slovo.bg/showwork.php3?AuID=50&amp;WorkID=3051&amp;Level=2">„Старият музикант“</a>,
+<a href="http://www.slovo.bg/showwork.php3?AuID=50&amp;WorkID=3054&amp;Level=2">„Цветарка“</a>,
+<a href="http://www.slovo.bg/showwork.php3?AuID=50&amp;WorkID=3106&amp;Level=2">„Зимни вечери“</a>.</p>
+<p><a href="http://slovo.bg/geomilev/"><b>Гео Милев</b> </a></p>
+<p><b><i>поемата </i></b>
+<a href="http://www.slovo.bg/showwork.php3?AuID=142&amp;WorkID=3680&amp;Level=1">„Септември“</a>.</p>
+<p><a target="_blank" href="http://balgarin.bravehost.com/dalchev/"><b>Атанас Далчев</b></a></p>
+<p><b><i>поезия</i></b>: <a target="_blank" href="http://balgarin.bravehost.com/dalchev/windows.htm">„Прозорец“</a>, <a target="_blank" href="http://balgarin.bravehost.com/dalchev/bolnica.htm">„Болница“</a>, <a target="_blank" href="http://balgarin.bravehost.com/dalchev/room.htm">„Стаята“</a>, <a target="_blank" href="http://balgarin.bravehost.com/dalchev/house.htm">„Къщата“</a>, <a target="_blank" href="http://balgarin.bravehost.com/dalchev/povest.htm">„Повест“</a>, <a target="_blank" href="http://balgarin.bravehost.com/dalchev/books.htm">„Книгите“</a>.</p>
+<p><a href="http://www.slovo.bg/bagryana/"><b>Елисавета Багряна</b> </a></p>
+<p><b><i>поезия</i></b>: <a href="http://www.slovo.bg/showwork.php3?AuID=183&amp;WorkID=5376&amp;Level=3">„Кукувица“</a>, <a href="http://www.slovo.bg/showwork.php3?AuID=183&amp;WorkID=5368&amp;Level=2">„Стихии“</a>, <a href="http://www.slovo.bg/bagryana/vechnata/">„Бретан“</a>, <a href="http://www.slovo.bg/showwork.php3?AuID=183&amp;WorkID=5465&amp;Level=3">„Ръцете“</a>.</p> 
+<p><a href="http://www.slovo.bg/yovkov/"><b>Йордан Йовков</b> </a></p>
+<p><b><i>разкази</i></b>: <a href="http://balgarin.bravehost.com/yovkov/koleleta" target="_blank">сб. „Песента на колелетата“</a> - <a href="http://balgarin.bravehost.com/yovkov/koleleta/koleleta.htm" target="_blank">„Песента на колелетата“</a>, <a href="http://balgarin.bravehost.com/yovkov/koleleta/posledna.htm" target="_blank">„Последна радост“</a>; <a href="http://balgarin.bravehost.com/yovkov/legendi/" target="_blank">сб. „Старопланински легенди“</a> - <a href="http://balgarin.bravehost.com/yovkov/legendi/shibil.htm" target="_blank"> „Шибил“</a>, <a href="http://balgarin.bravehost.com/yovkov/legendi/koshuta.htm" target="_blank">„Кошута“</a>, <a href="http://balgarin.bravehost.com/yovkov/legendi/indze.htm" target="_blank">„Индже“</a>; <a href="http://www.slovo.bg/yovkov/vecheri/">сб. „Вечери в Антимовския хан“</a> - <a href="http://balgarin.bravehost.com/yovkov/albena.htm" target="_blank">„Албена“</a>, <a href="http://balgarin.bravehost.com/yovkov/drugosel.htm" target="_blank">„Другоселец“</a>; <a href="http://balgarin.bravehost.com/yovkov/zhensko/" target="_blank">сб. „Женско сърце“</a> - <a href="http://balgarin.bravehost.com/yovkov/zhensko/serafim.htm" target="_blank">„Серафим“</a>.</p>
+<p><b><a href="http://www.slovo.bg/vaptsarov/">Никола Вапцаров</a></b> </p>
+<p><b><i>поезия</i></b>:
+<a href="http://www.slovo.bg/showwork.php3?AuID=17&amp;WorkID=109&amp;Level=3">„Вяра“</a>,<a href="http://www.slovo.bg/showwork.php3?AuID=17&amp;WorkID=116&amp;Level=3">„Писмо“(„Ти помниш ли...“)</a>,
+<a href="http://www.slovo.bg/showwork.php3?AuID=17&amp;WorkID=164&amp;Level=1">„История“</a>, <a href="http://www.slovo.bg/showwork.php3?AuID=17&amp;WorkID=111&amp;Level=3">„Завод“</a>,<a href="http://www.slovo.bg/showwork.php3?AuID=17&amp;WorkID=167&amp;Level=1"> „Кино“</a>.</p>
+<p><b><a href="http://www.slovo.bg/ddimov/">Димитър Димов</a></b></p>
+<p><b><i>романът </i></b><a href="http://www.slovo.bg/ddimov/tutun/">„Тютюн“</a>.</p>
+<p><b><a href="http://www.slovo.bg/talev/">Димитър Талев</a></b> </p>
+<p><b><i>романът </i></b><a href="http://www.slovo.bg/talev/svetilnik/">„Железният светилник“</a>.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><i>2.2. Литературнотеоретични понятия:</i></p>
+<ul>
+ <li>Жанр,  роман, повест, разказ, фейлетон, сатира, ода, елегия, балада, поема, сонет, лирическа миниатюра;</li>
+ <li>Заглавие, мото;</li>
+ <li>Литературен герой, лирически „аз“, повествовател; </li>
+ <li>Художествено време и пространство;</li>
+ <li>Композиция, сюжет, експозиция, завръзка, кулминация, развръзка, епилог, поанта;</li>
+ <li>Антитеза, контраст, епитет, художествено сравнение, метафора, метонимия, хипербола, литота, алегория, гротеска, оксиморон, парадокс;</li>
+ <li>Символ, фолклор, литература.</li>
+</ul>
+<h4>IV. Оценявани компетентности</h4>
+<p><b>3.1. Езикови компетентности: </b></p>
+<ul type="disc">
+ <li>Владее и умее да прилага граматичната норма на съвременния български книжовен език; </li>
+ <li>Владее и умее да прилага правописната норма на съвременния български книжовен език;</li>
+ <li>Владее и умее да прилага пунктуационната норма на съвременния български книжовен език;</li>
+ <li>Владее и умее да прилага лексикалната норма на съвременния български книжовен език;</li>
+ <li>Владее и умее да прилага стилистичната норма на съвременния български книжовен език; </li>
+ <li>Умее да извлича информация от текст и да я обработва в съответствие с поставената задача;</li>
+ <li>Умее да подбира и съчетава езикови средства в съответствие с поставената задача;</li>
+ <li>Умее да възприема смисли от текстове, функциониращи в комуникативната практика;</li>
+ <li>Умее да изгражда цялостен и завършен текст, като се съобразява с поставената задача.</li>
+</ul>
+<p><b>3.2. Литературни компетентности:</b></p>
+<ul>
+ <li>Разбира условния характер на художествената литература;</li>
+ <li>Познава посочените автори и творби и свързаните с тях факти от българската литературна история; </li>
+ <li>Познава посочените литературнотеоретични понятия;</li>
+ <li>Притежава знания за строежа и функционирането на художествената творба;</li>
+ <li>Интерпретира художествения смисъл от конкретен литературен текст.</li>
+</ul>
+<h4>V. Система за оценяване</h4>
+<p>Критериите за оценка на писмените работи се основават на ДОИ за учебно съдържание по български език и литература.</p>
+<p>Цифровата оценка се оформя по шестобална система и представя степента на овладяване на съответните компетентности.</p>
+<p>Оценяването на писмените работи се извършва по точкова система. </p>
+<ul type="disc">
+ <li>За всеки верен отговор на въпрос от теста се присъжда 1 (една) точка. Точка не се присъжда за грешен отговор, за повече от един отговор или за липсващ отговор;</li>
+ <li>Задачата за създаване на текст по зададени параметри се оценява с 0 до 4 точки в зависимост от проявените оценявани компетентности;</li>
+ <li>Задачата за създаване на текст, в който се интерпретира фрагмент от художествена творба, се оценява с 0 до10 точки в зависимост от проявените оценявани компетентности.</li>
+</ul>
+<p>Максималният брой точки е 60. Държавният зрелостен изпит по български език и литература е положен успешно, ако полученият бал е равен на или по-голям от 25% от максималния възможен, т.е. от 60 точки. </p>
+<p>&nbsp;</p>
+<h3>Учебно-изпитна програма </h3>
+<h3>за зрелостен изпит по български език и литература (второ равнище)</h3>
+<p>&nbsp;</p>
+<p><b>1.Формат на зрелостния изпит</b></p>
+<p>Изпитът е писмен с продължителност пет астрономически часа. На кандидатите се раздава текстът, върху който трябва да се работи. </p>
+<p>Жанрът на писмената работа е интерпретативно съчинение върху конкретен литературен текст. По решение на&nbsp; висшите училища резултатът от матурата може да получи статут на приемен изпит.</p>
+<p>Изборът на изпитния жанр се основава на ДОИ за учебно съдържание по български език и литература.</p>
+<p>Изборът на учебно съдържание се основава на Учебните програми по български език и литература в частта за задължителна подготовка.</p>
+<p>Оценяват се компетентности, предвидени от ДОИ за учебно съдържание по български език и литература.</p>
+<p>Цифровата оценка представя степента на овладяване на съответните компетентности.</p>
+<p>Критериите за оценка на писмените работи се основават на ДОИ за учебно съдържание по български език и литература.</p>
+<p>&nbsp;</p>
+<h4>Интерпретативно съчинение</h4>
+<p>Интерпретативното съчинение гарантира проверката на езиковите компетентости, способността да се създаде цялостен и завършен текст, като се използват различни типове аргументация.</p>
+<p>Интерпретативното съчинение върху конкретен литературен текст предполага разчитане на литературния текст с оглед неговата структура, образност и символика.</p>
+<p>Интерпретативното съчинение предоставя възможност за избор. Тълкуването на литературния текст може да бъде:</p>
+<p>- затворено - коментират се особеностите само на изпитния текст;</p>
+<p>- контекстуално - изпитният текст се коментира в неговата взаимосвързаност с други текстове – литературни, фолклорни, митологични.</p>
+<p>Интерпретативното съчинение върху конкретен литературен текст проверява способностите за разбиране на&nbsp; художествен текст, като се използват знанията по литературна теория и история.</p>
+<hr color="#005500" width="60%">
+<p class="cntr"><b><i>Забележка: </i>Тези материали с условията и изискванията за зрелостния изпит са взети от страницата на <a target="_blank" href="http://www.minedu.government.bg/">Министерството на образованието и науката</a>. Т.е. те не са окончателни и подлежат на промени в зависимост от това какво ще хрумне на поредния чиновник. Нашият принос е единствено да вържем с връзки страниците на авторите и произведенията изисквани за изпита. </b></p>
+<p class="cntr"><b>Още за матурите: <a target="_blank" href="http://www.minedu.government.bg/maturi/maturi.htm">www.minedu.government.bg/maturi/maturi.htm</a> </b></p>
+<hr color="#005500" width="60%">
+<p class="ftr">Обратно към: [<b><a href="http://slovo.bg">Словото</a></b>]</p>
+
+
+</body>
+<jsp:include page="footer.jsp" /> 

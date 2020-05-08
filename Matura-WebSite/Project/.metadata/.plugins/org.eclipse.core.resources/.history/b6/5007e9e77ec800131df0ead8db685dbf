@@ -1,0 +1,180 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<jsp:include page="header.jsp" />
+
+<div style="clear:both;padding-top: 50px;"></div>
+<div class="list-group">
+  <a href="#" class="list-group-item active">
+    Алеко Константинов
+  </a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Bay Ganyo" class="list-group-item">Бай Ганьо</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Razni hora, razni ideali" class="list-group-item">Разни хора, разни идеали</a>
+</div>
+<div class="list-group">
+  <a href="#" class="list-group-item active">
+    Атанас Далчев
+  </a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Bolnitsa" class="list-group-item">Болница</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Dyavolsko" class="list-group-item">Дяволско</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Kamak" class="list-group-item">Камък</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Knigite" class="list-group-item">Книгите</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Kashtata" class="list-group-item">Къщата</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Povest" class="list-group-item">Повест</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Prozorets" class="list-group-item">Прозорец</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Stayata" class="list-group-item">Стаята</a>
+</div>
+<div class="list-group">
+  <a href="#" class="list-group-item active">
+    Гео Милев
+  </a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Septemvri" class="list-group-item">Септември</a>
+</div>
+<div class="list-group">
+  <a href="#" class="list-group-item active">
+    Димитър Димов
+  </a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Tyutyun" class="list-group-item">Тютюн</a>
+</div>
+<div class="list-group">
+  <a href="#" class="list-group-item active">
+    Димитър Талев
+  </a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Zhelezniyat Svetilnik" class="list-group-item">Железният Светилник</a>
+</div>
+<div class="list-group">
+  <a href="#" class="list-group-item active">
+    Димчо Дебелянов
+  </a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Da se zavarnesh..." class="list-group-item">Да се завърнеш...</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Edin Ubit" class="list-group-item">Един Убит</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Mig" class="list-group-item">Миг</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Plovdiv" class="list-group-item">Пловдив</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Pomnish li, pomnish ли" class="list-group-item">Помниш ли, помниш ли</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Sirotna pesen" class="list-group-item">Сиротна песен</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Spi Gradat" class="list-group-item">Спи Градът</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Tiha Pobeda" class="list-group-item">Тиха Победа</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Cherna pesen" class="list-group-item">Черна песен</a>
+</div>
+<div class="list-group">
+  <a href="#" class="list-group-item active">
+    Елин Пелин
+  </a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Andreshko" class="list-group-item">Андрешко</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Vetrenata Melnitsa" class="list-group-item">Ветрената Мелница</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Geratsite" class="list-group-item">Гераците</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Zadushnitsa" class="list-group-item">Задушница</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Zanemelite kambani" class="list-group-item">Занемелите камбани</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Kosachi" class="list-group-item">Косачи</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Mechtateli" class="list-group-item">Мечтатели</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Na onya svyat" class="list-group-item">На оня свят</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Chorba ot grehovete na oтец Никодим" class="list-group-item">Чорба от греховете на отец Никодим</a>
+  
+</div>
+<div class="list-group">
+  <a href="#" class="list-group-item active">
+    Елисавета Багряна
+  </a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Vechnata" class="list-group-item">Вечната</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Kukuvitsa" class="list-group-item">Кукувица</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Potomka" class="list-group-item">Потомка</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Stihii" class="list-group-item">Стихии</a>
+</div>
+<div class="list-group">
+  <a href="#" class="list-group-item active">
+    Иван Вазов
+  </a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Balgarskiyat ezik" class="list-group-item">Българският език</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Dyado Yotso gleda" class="list-group-item">Дядо Йоцо гледа</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Elate ni vizhte" class="list-group-item">Елате ни вижте</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Kocho" class="list-group-item">Кочо</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Levski" class="list-group-item">Левски</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Linee nashto pokolenye" class="list-group-item">Линее нашто поколенье</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Opalchentsite na Shipka" class="list-group-item">Опълченците на Шипка</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Otechestvo lyubezno" class="list-group-item">Отечество любезно</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Paisiy" class="list-group-item">Паисий</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Pod igoto" class="list-group-item">Под игото</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Pri Rilskiya manastir" class="list-group-item">При Рилския манастир</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Chichovtsi" class="list-group-item">Чичовци</a>
+</div>     
+<div class="list-group">
+  <a href="#" class="list-group-item active">
+    Йордан Йовков
+  </a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Albena" class="list-group-item">Албена</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Drugoselets" class="list-group-item">Другоселец</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Inzhde" class="list-group-item">Инжде</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Pesenta na kолелетата" class="list-group-item">Песента на колелетата</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Posledna radост" class="list-group-item">Последна радост</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Prez chumavotо" class="list-group-item">През чумавото</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Serafim" class="list-group-item">Серафим</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Shibil" class="list-group-item">Шибил</a>
+</div>
+<div class="list-group">
+  <a href="#" class="list-group-item active">
+    Никола Вапцаров
+  </a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Борбата е безмилостно жестока" class="list-group-item">Борбата е безмилостно жестока</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Вяра" class="list-group-item">Вяра</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Завод" class="list-group-item">Завод</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=История" class="list-group-item">История</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Кино" class="list-group-item">Кино</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Песен за човека" class="list-group-item">Песен за човека</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Писмо" class="list-group-item">Писмо</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Прощално" class="list-group-item">Прощално</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Сън" class="list-group-item">Сън</a>
+  
+</div>
+<div class="list-group">
+  <a href="#" class="list-group-item active">
+    Пейо Яворов
+  </a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Градушка" class="list-group-item">Градушка</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Две души" class="list-group-item">Две души</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Две хубави очи" class="list-group-item">Две хубави очи</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Заточеници" class="list-group-item">Заточеници</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Маска" class="list-group-item">Маска</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Песента на човека" class="list-group-item">Песента на човека</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Сенки" class="list-group-item">Сенки</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Стон" class="list-group-item">Стон</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Ще бъдеш в бяло" class="list-group-item">Ще бъдеш в бяло</a>
+        
+</div>
+<div class="list-group">
+  <a href="#" class="list-group-item active">
+    Пенчо Славейков
+  </a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Cis moll" class="list-group-item">Cis moll</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Ни лъх не дъхва над полени" class="list-group-item">Ни лъх не дъхва над полени</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Ралица" class="list-group-item">Ралица</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Самотен гроб в самотен кът" class="list-group-item">Самотен гроб в самотен кът</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Спи езерото" class="list-group-item">Спи езерото</a>
+</div>
+<div class="list-group">
+  <a href="#" class="list-group-item active">
+    Христо Ботев
+  </a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Борба" class="list-group-item">Борба</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=До моето първо либе" class="list-group-item">До моето първо либе</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Елегия" class="list-group-item">Елегия</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Към брата си" class="list-group-item">Към брата си</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Майце си" class="list-group-item">Майце си</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Моята молитва" class="list-group-item">Моята молитва</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=На прощаване 1868г." class="list-group-item">На прощаване 1868г.</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Обесването на Васил Левски" class="list-group-item">Обесването на Васил Левски</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Хаджи Димитър" class="list-group-item">Хаджи Димитър</a>
+  
+</div>
+<div class="list-group">
+  <a href="#" class="list-group-item active">
+    Христо Смирненски
+  </a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Да бъде ден" class="list-group-item">Да бъде ден</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Зимни вечери" class="list-group-item">Зимни вечери</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Йохан" class="list-group-item">Йохан</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Ний" class="list-group-item">Ний</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Стария музикант" class="list-group-item">Стария музикант</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Цветарка" class="list-group-item">Цветарка</a>
+  <a href="GetProizvedeniq.jsp?proizvedenie=Юноша" class="list-group-item">Юноша</a>
+</div>
+
+<jsp:include page="footer.jsp" /> 

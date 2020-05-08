@@ -1,0 +1,26 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<jsp:include page="header.jsp" /> 
+    <div class="container theme-showcase" role="main">
+
+      <!-- Main jumbotron for a primary marketing message or call to action -->
+      <div class="jumbotron">
+        <h1>Здравейте!</h1>
+        <p>От този сайт вие можете да се подготвите за матурата по Български език и Литература</p>
+        <p><a href="#" class="btn btn-primary btn-lg" role="button">Научи повече »</a></p>
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-8198780891409499";
+/* Matura Site Ads */
+google_ad_slot = "3779601965";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+<script type="text/javascript"
+src="//pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+      </div>
+     </div>
+    
+    
+<jsp:include page="footer.jsp" /> 

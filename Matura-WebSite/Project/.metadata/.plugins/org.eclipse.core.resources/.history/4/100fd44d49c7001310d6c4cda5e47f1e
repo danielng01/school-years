@@ -1,0 +1,183 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<jsp:include page="header.jsp" />
+
+<div style="clear:both;padding-top: 50px;"></div>
+<div class="list-group">
+  <a href="#" class="list-group-item active">
+    Алеко Константинов
+  </a>
+  <a href="Proizvedeniq.jsp?proizvedenie=Бай Ганьо" class="list-group-item">Бай Ганьо</a>
+  <a href="Proizvedeniq.jsp?proizvedenie=Разни хора, разни идеали" class="list-group-item">Разни хора, разни идеали</a>
+</div>
+<div class="list-group">
+  <a href="#" class="list-group-item active">
+    Атанас Далчев
+  </a>
+  <a href="Proizvedeniq.jsp?proizvedenie=Болница" class="list-group-item">Болница</a>
+  <a href="Proizvedeniq.jsp?proizvedenie=Дяволско" class="list-group-item">Дяволско</a>
+  <a href="Proizvedeniq.jsp?proizvedenie=Камък" class="list-group-item">Камък</a>
+  <a href="Proizvedeniq.jsp?proizvedenie=Книгите" class="list-group-item">Книгите</a>
+  <a href="Proizvedeniq.jsp?proizvedenie=Къщата" class="list-group-item">Къщата</a>
+  <a href="Proizvedeniq.jsp?proizvedenie=Повест" class="list-group-item">Повест</a>
+  <a href="Proizvedeniq.jsp?proizvedenie=Прозорец" class="list-group-item">Прозорец</a>
+  <a href="Proizvedeniq.jsp?proizvedenie=Стаята" class="list-group-item">Стаята</a>
+</div>
+<div class="list-group">
+  <a href="#" class="list-group-item active">
+    Гео Милев
+  </a>
+  <a href="Proizvedeniq.jsp?proizvedenie=Септември" class="list-group-item">Септември</a>
+</div>
+<div class="list-group">
+  <a href="#" class="list-group-item active">
+    Димитър Димов
+  </a>
+  <a href="Proizvedeniq.jsp?proizvedenie=Тютюн" class="list-group-item">Тютюн</a>
+</div>
+<div class="list-group">
+  <a href="#" class="list-group-item active">
+    Димитър Талев
+  </a>
+  <a href="Proizvedeniq.jsp?proizvedenie=Железният Светилник" class="list-group-item">Железният Светилник</a>
+</div>
+<div class="list-group">
+  <a href="#" class="list-group-item active">
+    Димчо Дебелянов
+  </a>
+  <a href="Proizvedeniq.jsp?proizvedenie=Да се завърнеш..." class="list-group-item">Да се завърнеш...</a>
+  <a href="Proizvedeniq.jsp?proizvedenie=Един Убит" class="list-group-item">Един Убит</a>
+  <a href="Proizvedeniq.jsp?proizvedenie=Миг" class="list-group-item">Миг</a>
+  <a href="Proizvedeniq.jsp?proizvedenie=Пловдив" class="list-group-item">Пловдив</a>
+  <a href="Proizvedeniq.jsp?proizvedenie=Помниш ли, помниш ли" class="list-group-item">Помниш ли, помниш ли</a>
+  <a href="Proizvedeniq.jsp?proizvedenie=Сиротна песен" class="list-group-item">Сиротна песен</a>
+  <a href="Proizvedeniq.jsp?proizvedenie=Спи Градът" class="list-group-item">Спи Градът</a>
+  <a href="Proizvedeniq.jsp?proizvedenie=Тиха Победа" class="list-group-item">Тиха Победа</a>
+  <a href="Proizvedeniq.jsp?proizvedenie=Черна песен" class="list-group-item">Черна песен</a>
+</div>
+<div class="list-group">
+  <a href="#" class="list-group-item active">
+    Елин Пелин
+  </a>
+  <a href="Proizvedeniq.jsp?proizvedenie=Андрешко" class="list-group-item">Андрешко</a>
+  <a href="Proizvedeniq.jsp?proizvedenie=Ветрената Мелница" class="list-group-item">Ветрената Мелница</a>
+  <a href="Proizvedeniq.jsp?proizvedenie=Гераците" class="list-group-item">Гераците</a>
+  <a href="Proizvedeniq.jsp?proizvedenie=Задушница" class="list-group-item">Задушница</a>
+  <a href="Proizvedeniq.jsp?proizvedenie=Занемелите камбани" class="list-group-item">Занемелите камбани</a>
+  <a href="Proizvedeniq.jsp?proizvedenie=Косачи" class="list-group-item">Косачи</a>
+  <a href="Proizvedeniq.jsp?proizvedenie=Мечтатели" class="list-group-item">Мечтатели</a>
+  <a href="Proizvedeniq.jsp?proizvedenie=На оня свят" class="list-group-item">На оня свят</a>
+  <a href="Proizvedeniq.jsp?proizvedenie=Чорба от греховете на отец Никодим" class="list-group-item">Чорба от греховете на отец Никодим</a>
+  
+</div>
+<div class="list-group">
+  <a href="#" class="list-group-item active">
+    Елисавета Багряна
+  </a>
+  <a href="Proizvedeniq.jsp?proizvedenie=" class="list-group-item">Вечната</a>
+  <a href="Proizvedeniq.jsp?proizvedenie=" class="list-group-item">Кукувица</a>
+  <a href="Proizvedeniq.jsp?proizvedenie=" class="list-group-item">Потомка</a>
+  <a href="Proizvedeniq.jsp?proizvedenie=" class="list-group-item">Стихии</a>
+</div>
+<div class="list-group">
+  <a href="#" class="list-group-item active">
+    Иван Вазов
+  </a>
+  <a href="#" class="list-group-item">Българският език</a>
+  <a href="#" class="list-group-item">Дядо Йоцо гледа</a>
+  <a href="#" class="list-group-item">Елате ни вижте</a>
+  <a href="#" class="list-group-item">Кочо</a>
+  <a href="#" class="list-group-item">Левски</a>
+  <a href="#" class="list-group-item">Линее нашто поколенье</a>
+  <a href="#" class="list-group-item">Опълченците на Шипка</a>
+  <a href="#" class="list-group-item">Отечество любезно</a>
+  <a href="#" class="list-group-item">Паисий</a>
+  <a href="#" class="list-group-item">Под игото</a>
+  <a href="#" class="list-group-item">При Рилския манастир</a>
+  <a href="#" class="list-group-item">Чичовци</a>
+</div>
+<div class="list-group">
+  <a href="#" class="list-group-item active">
+    Йордан Йовков
+  </a>
+  <a href="#" class="list-group-item">Албена</a>
+  <a href="#" class="list-group-item">Другоселец</a>
+  <a href="#" class="list-group-item">Инжде</a>
+  <a href="#" class="list-group-item">Песента на колелетата</a>
+  <a href="#" class="list-group-item">Последна радост</a>
+  <a href="#" class="list-group-item">През чумавото</a>
+  <a href="#" class="list-group-item">Серафим</a>
+  <a href="#" class="list-group-item">Шибил</a>
+</div>
+<div class="list-group">
+  <a href="#" class="list-group-item active">
+    Никола Вапцаров
+  </a>
+  <a href="#" class="list-group-item">Борбата е безмилостно жестока</a>
+  <a href="#" class="list-group-item">Вяра</a>
+  <a href="#" class="list-group-item">Завод</a>
+  <a href="#" class="list-group-item">История</a>
+  <a href="#" class="list-group-item">Кино</a>
+  <a href="#" class="list-group-item">Песен за човека</a>
+  <a href="#" class="list-group-item">Писмо</a>
+  <a href="#" class="list-group-item">Прощално</a>
+  <a href="#" class="list-group-item">Сън</a>
+  
+</div>
+<div class="list-group">
+  <a href="#" class="list-group-item active">
+    Пейо Яворов
+  </a>
+  <a href="#" class="list-group-item">Градушка</a>
+  <a href="#" class="list-group-item">Две души</a>
+  <a href="#" class="list-group-item">Две хубави очи</a>
+  <a href="#" class="list-group-item">Заточеници</a>
+  <a href="#" class="list-group-item">Маска</a>
+  <a href="#" class="list-group-item">Песента на човека</a>
+  <a href="#" class="list-group-item">Сенки</a>
+  <a href="#" class="list-group-item">Стон</a>
+  <a href="#" class="list-group-item">Ще бъдеш в бяло</a>
+  
+</div>
+<div class="list-group">
+  <a href="#" class="list-group-item active">
+    Пенчо Славейков
+  </a>
+  <a href="#" class="list-group-item">Cis moll</a>
+  <a href="#" class="list-group-item">Ни лъх не дъхва над полени</a>
+  <a href="#" class="list-group-item">Ралица</a>
+  <a href="#" class="list-group-item">Самотен гроб в самотен кът</a>
+  <a href="#" class="list-group-item">Спи езерото</a>
+</div>
+<div class="list-group">
+  <a href="#" class="list-group-item active">
+    Христо Ботев
+  </a>
+  <a href="#" class="list-group-item">Борба</a>
+  <a href="#" class="list-group-item">До моето първо либе</a>
+  <a href="#" class="list-group-item">Елегия</a>
+  <a href="#" class="list-group-item">Към брата си</a>
+  <a href="#" class="list-group-item">Майце си</a>
+  <a href="#" class="list-group-item">Моята молитва</a>
+  <a href="#" class="list-group-item">На прощаване 1868г.</a>
+  <a href="#" class="list-group-item">Обесването на Васил Левски</a>
+  <a href="#" class="list-group-item">Хаджи Димитър</a>
+  
+</div>
+<div class="list-group">
+  <a href="#" class="list-group-item active">
+    Христо Смирненски
+  </a>
+  <a href="#" class="list-group-item">Да бъде ден</a>
+  <a href="#" class="list-group-item">Зимни вечери</a>
+  <a href="#" class="list-group-item">Йохан</a>
+  <a href="#" class="list-group-item">Ний</a>
+  <a href="#" class="list-group-item">Стария музикант</a>
+  <a href="#" class="list-group-item">Цветарка</a>
+  <a href="#" class="list-group-item">Юноша</a>
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="<%=request.getContextPath()%>/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html> 
